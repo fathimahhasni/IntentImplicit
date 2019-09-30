@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity"
+    android:background="@drawable/galaxyz">
+
+    <Button
+        android:id="@+id/btnCP"
+        android:layout_width="359dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bttn"
+        android:textColor="#fff"
+        android:onClick="call"
+        android:text="Contact Person" />
+
+    <Button
+        android:id="@+id/btnBrowser"
+        android:layout_width="359dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bttn"
+        android:textColor="#fff"
+        android:onClick="open"
+        android:text="Browser" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="570dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:fontFamily="monospace"
+        android:text="Fathimah Azzahro Hasni Rifayanti" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:textAlignment="center"
+        android:fontFamily="monospace"
+        android:text="NIM. 1167050063" />
+
+
+</RelativeLayout>
